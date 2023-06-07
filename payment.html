@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+  <div style="padding: 0.48%; border: 5px solid red;">
+    <div class="formm" id="form">
+        <div class="form-action"> 
+            <form action="">
+                <h1 class="h" style="padding-left: 8%; padding-top: 5%; font-size: xx-large; font-weight: bolder;">Payment Methods</h1>
+                <span class="mh" style="display: flex; gap: 10%; font-size: x-large;">
+                    <label for="payment-method">Debit/Credit card
+                        <input type="radio" name="payment" id="payment-method">
+                    </label><br>
+                    <label for="payment-methodd">Paypal
+                        <input type="radio" name="payment" id="payment-methodd">
+                    </label>
+                </span><br><br>
+                <div class="exp">
+                    <span>
+                        <div class="num">
+                           <label for="firstname">
+                               <input type="text" name="firstname" id="firstname" required><br>
+                               First name
+                           </label>
+                         
+                           <label for="lastname">
+                               <input type="text" name="lastname" id="lastname" required><br>
+                               Last name
+                           </label>
+                        </div><br>
+                   
+                        <div class="num">
+                           <label for="creditcardnumber">
+                               <input type="text" name="creditcardnumber" id="creditcardnumber" placeholder="**** **** **** ****" required><br>
+                               Credit card number
+                           </label>
+                       
+                           <label for="securitycode">
+                               <input type="text" name="securitycode" id="securitycode" placeholder="CVC" required><br>
+                               Security code
+                           </label>
+                        </div><br>
+                   
+                        <nav  class="hhn">
+                            <label for="cardexpiration">
+                                <input type="date" name="cardexpiration" id="cardexpiration" placeholder="DD/MM/YY" required><br>
+                                Card expiration
+                            </label>
+                        </nav>
+                    </span>
+                </div>
+                <br><br><br>
+                <button class="btn">Submit Order</button>
+               </form>
+        </div>
+    </div>
+  </div>
+ </main>
+
+ <footer style="background-color: red;">
+    <h2 style="text-align: center; color: white; font-family: Arial, Helvetica, sans-serif; font-size: small; padding: 1%;">Copyright &copy; 2022 Food 52, All Right Reserved.</h2>
+  </footer>
+</body>
+</html>
